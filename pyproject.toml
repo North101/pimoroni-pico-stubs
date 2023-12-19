@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "pimoroni-pico-stubs"
-version = "1.21.0"
+name = "north101-pimoroni-pico-stubs"
+version = "1.21.0-1"
 description = "Micropython Stubs for Pimoroni MicroPython libraries for RP2040-based boards"
 license = "MIT"
 authors = []

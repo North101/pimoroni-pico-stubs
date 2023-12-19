@@ -10,7 +10,7 @@ Type stubs include details about the constants, functions, classes and methods a
 
 You must install the VSCode Python extension and additionally Pylance to support type hints.
 
-To install extensions, press Ctrl+Shift+P or Cmd+Shift+P and in the pop-up box type "Extensions" and select "Extensions: Install Extensions".
+To install extensions, press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) and in the pop-up box type "Extensions" and select "Extensions: Install Extensions".
 
 A search box should open on the left-hand side of your editor, find and install the following:
 
@@ -41,10 +41,10 @@ If the file is empty you can go right ahead and add the lines below:
 
 To get MicroPython type hints you'll need to install the following package into the `./typings` directory of your project.
 
-If the terminal is not open press Ctrl+Shift+P or Cmd+Shift+P and in the pop-up box type "Terminal" and select "Terminal: Create New Terminal (In Active Workspace)".
+If the terminal is not open press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) and in the pop-up box type "Terminal" and select "Terminal: Create New Terminal (In Active Workspace)".
 
 Finally in the terminal run the following command:
 
 ```bash
-pip install pimoroni-pico-stubs --target ./typings --no-user
+pip install north101-pimoroni-pico-stubs --target ./typings --no-user
 ```
